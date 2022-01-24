@@ -57,6 +57,7 @@ development.
 
 ## How it works
 ![](video.mp4)
+[![Watch the video](https://youtu.be/JYka9TNasbc)](https://youtu.be/JYka9TNasbc)
 
 ## Contact
 If you need any help, you can connect with me.
