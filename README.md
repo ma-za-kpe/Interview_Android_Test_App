@@ -57,7 +57,7 @@ development.
 
 ## How it works
 ![](video.mp4)
-[![Watch the video](https://youtu.be/JYka9TNasbc)](https://youtu.be/JYka9TNasbc)
+[![Watch the video](https://github.com/ma-za-kpe/Interview_Android_Test_App/blob/master/pdt.png)](https://youtu.be/JYka9TNasbc)
 
 ## Contact
 If you need any help, you can connect with me.
