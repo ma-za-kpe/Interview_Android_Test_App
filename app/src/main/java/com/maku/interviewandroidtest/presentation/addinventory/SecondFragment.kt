@@ -88,7 +88,6 @@ class SecondFragment : BaseFragment(), CompoundButton.OnCheckedChangeListener {
 
 
         binding.create.setOnClickListener {
-            binding.progressBar2.visibility = View.VISIBLE
             requireActivity().toast("category_item $category_item")
             // check if fields are valid
             if (isValidate()){
@@ -108,6 +107,7 @@ class SecondFragment : BaseFragment(), CompoundButton.OnCheckedChangeListener {
     }
 
     private fun insertIntoDb(vat: Boolean) {
+        binding.progressBar2.visibility = View.VISIBLE
         viewModel.insertProduct(AddItemEntity(
             binding.pdtName.text.toString(),
             binding.pdtCode.text.toString(),
