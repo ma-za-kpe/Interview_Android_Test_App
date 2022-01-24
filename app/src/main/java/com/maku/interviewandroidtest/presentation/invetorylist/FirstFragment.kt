@@ -126,7 +126,7 @@ class FirstFragment : Fragment(), SearchView.OnQueryTextListener {
         searchView?.isSubmitButtonEnabled = true
         searchView?.setOnQueryTextListener(this)
         searchView!!.setOnCloseListener {
-           // mResultsAdapter.setData(ResultItemEntity(result_items))
+            mResultsAdapter.setData(ResultItemEntity(result_items!!))
             false
         }
     }
@@ -157,7 +157,7 @@ class FirstFragment : Fragment(), SearchView.OnQueryTextListener {
         return true
     }
 
-    // this method is not good for perfomance, its expensive through its calls to the API
+    // this method is not good for performance, its expensive through its calls to the API
     override fun onQueryTextChange(newText: String?): Boolean {
         return true
     }
@@ -165,12 +165,12 @@ class FirstFragment : Fragment(), SearchView.OnQueryTextListener {
     fun searchDbData(search_term: String?){
         // 0. check list/dataset size
         // 1. implement search logic() same filter loic as above
-//        if (result_items.size > 0) {
-//            mResultsAdapter.setData(ResultItemEntity(filterResults(result_items, search_term!!)))
-//        } else {
-//            Toast.makeText(requireContext(), "No data available", Toast.LENGTH_SHORT).show()
-//            binding.nodata.visibility = View.VISIBLE
-//        }
+        if (result_items?.size!! > 0) {
+            mResultsAdapter.setData(ResultItemEntity(filterResults(result_items!!, search_term!!)))
+        } else {
+            Toast.makeText(requireContext(), "No data available", Toast.LENGTH_SHORT).show()
+            binding.nodata.visibility = View.VISIBLE
+        }
 
         // 2. update the recyclerview as needed
     }
