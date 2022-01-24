@@ -55,7 +55,7 @@ development.
 - Clone this repo into android studio.
 - Build & Run the app.
 
-## How it works
+## Click the image below to watch how it works.
 ![](video.mp4)
 [![Watch the video](https://github.com/ma-za-kpe/Interview_Android_Test_App/blob/master/pdt.png)](https://youtu.be/JYka9TNasbc)
 
