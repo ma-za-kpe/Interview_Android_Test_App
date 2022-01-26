@@ -5,13 +5,12 @@
 ## [Live App](https://appetize.io/app/yrrq64xw7y84gn159k1xb98tr4) - Take the app for a live spin here.
 
 ## About
-- A simple MVVM project designed to be have low coupling with some degree of cohesion.
+- A simple MVVM project designed to have low coupling with some degree of cohesion.
 - This project is created with code re-usability, a screaming architecture, some solid principles like
 single responsibility and dependency injection mind.
 - The project domain has been modeled from the given exercise ui, a file called Development Tasks.doc
 in the project file structure.
-- However small it is, with time, it has the potential to be an over engineered application (For
-good sleep), meaning CLEAN ARCHITECTURE.
+- However small it is, with time, it has the potential to be an over engineered application, meaning CLEAN ARCHITECTURE.
 - On top of that, you can easily plug in the network layer, implement cache and have the app running
  in no time.
 - More importantly, the project also leverages some of kotlin's more exciting features, like the use
